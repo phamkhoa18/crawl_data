@@ -1,0 +1,35 @@
+{
+  "name": "crawl_phap_ly",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12",
+    "compromise": "^14.11.0",
+    "detect-file-type": "^0.2.8",
+    "express": "^4.18.2",
+    "file-type": "^18.7.0",
+    "got": "^13.0.0",
+    "is-pdf-valid": "^0.0.1",
+    "mime-types": "^2.1.35",
+    "natural": "^6.10.4",
+    "node-nlp": "^4.27.0",
+    "nodemon": "^3.0.1",
+    "pdf-parse": "^1.1.1",
+    "pdf2json": "^3.0.5",
+    "pdfreader": "^3.0.2",
+    "progress": "^2.0.3",
+    "puppeteer": "^21.5.2",
+    "request-promise": "^4.2.6",
+    "tesseract.js": "^5.0.3"
+  }
+}
